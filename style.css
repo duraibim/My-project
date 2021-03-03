@@ -53,3 +53,18 @@ body {
   .search-form {
     margin-bottom: 20px;
   }
+
+  button {
+    border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(30, 141, 245);
+  }
