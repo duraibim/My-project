@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather Application
+    </title>
+</head>
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <form class="search-form" id="search-form">
+            <div class="row">
+                <div class="col-9">
+                <input
+                    type="search"
+                    placeholder="Type a city.."
+                    autofocus="on"
+                    autocomplete="off"
+                    id="city-input"
+                    class="form-control shadow-sm"
+                />
+                </div>
+                <div class="col-3">
+                <input
+                    type="submit"
+                    value="Search"
+                    class="form-control btn btn-primary shadow-sm"
+                />
+                <button  id="current-button"
+        
+            >
+            Current City
+            </button>
+                </div>
+            </div>
+            </form>
+            <h1 id="city">
+            
+            </h1>
+            <ul>
+            <li id="date"></li>
+            <li id="condition"></li>
+            </ul>
+            <div class="row">
+            <div class="col-6">
+                <div class="clearfix">
+                <img
+                    src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                    alt="Cloudy icon"
+                    class="weather-icon float-left"
+                />
+                <div class="float-left">
+                    <h3>19</h3
+                    ></br><span class="units">
+                    <a href="#" id="celsius-link">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a>
+                    </span>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div calsss="row">
+            <div calss="col-6">
+                <div class="clearfix">
+                    <ul>
+                        <il id="humidity"> Humidity 0 % </il></br>
+                        <il id="wind"> Wind: 0 km/h </il>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
